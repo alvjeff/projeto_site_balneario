@@ -1,0 +1,113 @@
+body, html{/*obs1*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    /* text-decoration: underline; */
+}
+p{
+    text-align: justify;
+}
+
+.conteudo1{
+    clear: both;
+    position: relative;
+    height: 100%;
+    /* border: 1px solid red; */
+    background: url(/img/balneario1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.8;
+    background-attachment: fixed;
+    
+    
+}
+.conteudo-texto{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    /* border: 1px solid red; */
+    
+}
+.texto{
+    width: 70%;
+    margin: auto;
+    color: white;
+    background-color: gray;
+    opacity: 0.8;
+    top: 75%;
+    border: 1px solid white;
+    
+}
+
+
+.conteudo2{
+    height: 100%;
+    background: url(/img/aguas-termais2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.8;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+.conteudo3{
+    height: 100%;
+    background: url(/img/trilha.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.conteudo4{
+    height: 100%;
+    background: url(/img/pedal.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.central{
+    position: absolute;
+    top: 40%;
+    color: white;
+    left: 0;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+span{
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 3em;
+    background-color: rgb(79, 79, 79);
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+#rodape{
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+/* obs1
+Isso colocado aqui eh extramente importante para a parallax*/
+
+/* obs2
+Mais uma vez importante relatar que para quer os elementos position absolute funcionem, eh preciso que estejam dentro de elementos position relative.*/
